@@ -1,0 +1,10 @@
+.carousel-card {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-bottom {
+    background-color: rgba(191, 194, 231, 0.715);
+}

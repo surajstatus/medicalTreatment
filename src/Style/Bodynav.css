@@ -1,0 +1,88 @@
+.body-part {
+    width: 100%;
+}
+
+.body-navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.body-contents {
+    width: 50%;
+    line-height: 25px;
+}
+
+.content-title {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.body-cont {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin: 0 40px 0 50px;
+    border-bottom: 1px dashed blue;
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.image-div img {
+    width: 80%;
+    
+}
+
+.TreatmentFAQs{
+    /* line-height: 50px; */
+}
+
+.cardBlock {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    margin: 10px;
+}
+
+.form-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 25%;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    margin: 20px 60px 0 0;
+    z-index: 999;
+    background-color: white;
+    outline: none;
+}
+
+.form-card textarea {
+    resize: none;
+}
+
+.form-card input {
+    color: rgb(82, 73, 73);
+}
+
+.form-card button {
+    background-color:  rgb(3, 74, 206);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 30px;
+    
+}
